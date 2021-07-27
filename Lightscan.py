@@ -52,7 +52,7 @@ for worker in range(1, 65535):
 q.join()
 print('\n \n ----------------------------------------------------------')
 print('[+] Now All the ports are Scanned')
-print('[+] Our Nmap Come in Action, [nmap host -sCV -T4 -p open_ports]')
+print('[+] Our Nmap Come in Action, [nmap host -vvv -T4 -p open_ports]')
 print('----------------------------------------------------------')
 separator = ", "
 apple = separator.join(map(str, open_ports))
