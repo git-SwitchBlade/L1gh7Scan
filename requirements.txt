@@ -1,0 +1,4 @@
+you should have install python3 on you system
+
+pip install socket
+Also NMAP
