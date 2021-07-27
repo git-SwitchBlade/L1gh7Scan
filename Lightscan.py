@@ -32,14 +32,15 @@ def banner():
     print('----------------------------------------------------------')
     print('[+] You should have latest Version of NMAP installed')
     print('[+] Developed By $witch<Blade#0001')
-    print('[+] Only supports IPv4')
-    print(f'----------------------------------------------------------\n\n{color.reset}')
+    print(f'[+] Only supports IPv4{color.reset}')
+    print(f'{color.red}[+] I am not Rusted{color.reset}')
+    print(f'{color.blue}----------------------------------------------------------\n\n{color.reset}')
 
 
 # scanning ports
 def portscan(port):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)        # connecting to the remote host
-    s.settimeout(0.5)
+    s.settimeout(1)
     try:
         con = s.connect((host, port))        # scanning the ports
         with print_lock:
