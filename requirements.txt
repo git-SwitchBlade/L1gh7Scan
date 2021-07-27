@@ -1,5 +1,2 @@
-you should have install python3 on you system
-
-pip install socket
-pip install queue
-Also NMAP
+queue
+sockets
