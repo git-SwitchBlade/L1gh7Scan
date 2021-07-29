@@ -29,3 +29,6 @@ If you find an error or can't seem to run create an [issue](https://github.com/g
 
 # **Legal**
 This tool is intended for educational purposes only. The repo owner nor the contributors to this project will **NOT** take any responsibilty for any issues caused by malicious useage of this tool.
+# **Thanks**
+Special THanks TO 
+Decrypt and Hackername
