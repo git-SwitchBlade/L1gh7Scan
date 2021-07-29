@@ -22,7 +22,10 @@ $ git clone https://github.com/git-SwitchBlade/L1gh7Scan.git
 ```
 $ python3 Lightscan.py <ip address>
 ```
-
+  or specify portocol for eg.
+```
+ $ python3 Lightscan.py <ip address> -sV
+```
 # **Issues**
 
 If you find an error or can't seem to run create an [issue](https://github.com/git-SwitchBlade/L1gh7Scan/issues/new).
