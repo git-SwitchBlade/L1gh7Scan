@@ -65,9 +65,9 @@ open_ports = []
 print_lock = threading.Lock()
 host = sys.argv[1]
 try:
-	protocol = sys.argv[2]  #User Specified Protocol
+	protocol = sys.argv[2]  #User Specified Flags
 except IndexError:
-	protocol = '-vvv' #Default Prtocol
+	protocol = '-vvv' #Default Flag
 
 
 q = Queue()
