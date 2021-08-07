@@ -22,7 +22,7 @@ $ git clone https://github.com/git-SwitchBlade/L1gh7Scan.git
 ```
 $ python3 Lightscan.py <ip address>
 ```
-  or specify portocol for eg.
+  or specify Flags for eg.
 ```
  $ python3 Lightscan.py <ip address> -sV
 ```
